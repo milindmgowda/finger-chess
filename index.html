@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Finger chess</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Finger chess</h1>
+    <div class="main"><input class="button"id="start-button" type="button" value="Start" ></div>
+    
+    <div class="main">
+        <p id="turn">Player 0's turn</p>
+        <div>
+        <img class='HANDclass-0' src="panda.jpg" id="hand-0">
+        <img class='HANDclass-1' src="panda.jpg" id="hand-2">
+        </div>
+        <div>
+        <img class='HANDclass-0' src="panda.jpg" id="hand-1">
+        <img class='HANDclass-1' src="panda.jpg" id="hand-3">
+        </div>
+    </div>
+    <div class="main">
+        <form class="splits">
+            <label class="splits" for="split1">first hand: </label>
+            <input class="splits" id="split1" type="text">
+            <label class="splits" for="split2">second hand: </label>
+            <input class="splits" id="split2" type="text">
+            <input class="splits" id="split-submit" type="button" value="split">
+        </form>
+        
+    </div>
+    <div class="main"><input class="button" id="end-button" type="button" value="End" ></div>
+    <script src="app.js"></script>
+</body>
+</html>
